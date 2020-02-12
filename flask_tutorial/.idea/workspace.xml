@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3162ce-3e2a-43df-89eb-49116b79c646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/42b4f9909b61_users_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/54dc0995925d_posts_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -28,13 +31,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1XdkSTxnfSyxYGgEsVBAF4afb57" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -78,13 +84,30 @@
       <option name="presentableId" value="Default" />
       <updated>1581383358565</updated>
     </task>
+    <task id="LOCAL-00001" summary="Chapter 3: Web Forms">
+      <created>1581489197720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581489197720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Chapter 3: Web Forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3: Web Forms" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581407335244">
+    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581494101787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581407335244" />
+    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581494101787" />
+    <state x="604" y="112" key="CommitChangelistDialog2" timestamp="1581489197162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="604" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581489197162" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1581408887147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -105,5 +128,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581485727310" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581489204795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581489204795" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581495668308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581495668308" />
   </component>
 </project>
