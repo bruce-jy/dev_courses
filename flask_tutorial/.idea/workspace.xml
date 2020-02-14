@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3162ce-3e2a-43df-89eb-49116b79c646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flaskenv" beforeDir="false" afterPath="$PROJECT_DIR$/.flaskenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/versions/15c03d379b0a_followers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learn_python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,7 +40,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learn_python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -112,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581569165917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Chapter 7: Error Handling">
+      <created>1581586877227</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581586877227</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,17 +125,18 @@
     <MESSAGE value="Chapter 4: Database" />
     <MESSAGE value="Chapter 5: User Logins" />
     <MESSAGE value="Chapter 6: Profile Page and Avatars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6: Profile Page and Avatars" />
+    <MESSAGE value="Chapter 7: Error Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 7: Error Handling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581494101787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581494101787" />
-    <state x="-3035" y="-925" key="CommitChangelistDialog2" timestamp="1581569165227">
+    <state x="-3035" y="-925" key="CommitChangelistDialog2" timestamp="1581586876521">
       <screen x="-3840" y="-1076" width="2560" height="1400" />
     </state>
-    <state x="-3035" y="-925" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581569165227" />
+    <state x="-3035" y="-925" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581586876521" />
     <state x="604" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581497388710" />
     <state x="-2853" y="-706" key="FileChooserDialogImpl" timestamp="1581569320222">
       <screen x="-3840" y="-1076" width="2560" height="1400" />
@@ -174,10 +179,10 @@
       <screen x="-3840" y="-1076" width="2560" height="1400" />
     </state>
     <state width="1257" height="492" key="GridCell.Tab.1.right/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581557446122" />
-    <state x="-3104" y="-735" key="Vcs.Push.Dialog.v2" timestamp="1581569173492">
+    <state x="-3104" y="-735" key="Vcs.Push.Dialog.v2" timestamp="1581586879168">
       <screen x="-3840" y="-1076" width="2560" height="1400" />
     </state>
-    <state x="-3104" y="-735" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581569173492" />
+    <state x="-3104" y="-735" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581586879168" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581497395373" />
     <state x="652" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581554569218">
       <screen x="0" y="0" width="1920" height="1040" />
