@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-14 16:21+0900\n"
+"POT-Creation-Date: 2020-02-17 11:29+0900\n"
 "PO-Revision-Date: 2020-02-14 16:21+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
@@ -26,10 +26,26 @@ msgstr "이름"
 msgid "Password"
 msgstr "비밀번호"
 
+#: app/translate.py:8
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: app/translate.py:14
+msgid "Error: the translation service failed."
+msgstr ""
+
 #: app/templates/_post.html:14
 #, python-format
 msgid "%(username)s said %(when)s"
 msgstr "%(username)s님이 %(when)s에 작성"
+
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr "번역하기"
+
+#: app/templates/base.html:65
+msgid "Error: Could not contact server."
+msgstr ""
 
 #: app/templates/index.html:5
 #, python-format
