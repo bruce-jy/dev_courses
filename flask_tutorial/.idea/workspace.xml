@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3162ce-3e2a-43df-89eb-49116b79c646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/errors/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/errors/handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/errors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/auth/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/errors/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/errors/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/auth/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/translate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/translations/ko/LC_MESSAGES/messages.po" beforeDir="false" afterPath="$PROJECT_DIR$/app/translations/ko/LC_MESSAGES/messages.po" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microblog.py" beforeDir="false" afterPath="$PROJECT_DIR$/microblog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learn_python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_python/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -183,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581906775780</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Chapter 15: A Better Application Structure&#10;&#10;&#10;pip install -r requirements.txt로 패키지 설치가능&#10;전체적인 구조 변경">
+      <created>1581918662240</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581918662240</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,7 +192,8 @@
     <MESSAGE value="Chapter 12: Dates and Times(Moment)" />
     <MESSAGE value="Chapter 13: l18n and L10n (Languages and Cli)" />
     <MESSAGE value="Chapter 14: Ajax (Translator API)&#10;&#10;&#10;실제 API 연결은 Azure 계정이 필요해서 하지 않았음 &#10;cli.py 내부 오타 수정 complie -&gt; compile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 14: Ajax (Translator API)&#10;&#10;&#10;실제 API 연결은 Azure 계정이 필요해서 하지 않았음 &#10;cli.py 내부 오타 수정 complie -&gt; compile" />
+    <MESSAGE value="Chapter 15: A Better Application Structure&#10;&#10;&#10;pip install -r requirements.txt로 패키지 설치가능&#10;전체적인 구조 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 15: A Better Application Structure&#10;&#10;&#10;pip install -r requirements.txt로 패키지 설치가능&#10;전체적인 구조 변경" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-2887" y="-643" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581916306451">
@@ -207,10 +201,10 @@
     </state>
     <state x="-2887" y="-643" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581916306451" />
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581494101787" />
-    <state x="-3035" y="-925" key="CommitChangelistDialog2" timestamp="1581906775048">
+    <state x="-3035" y="-925" key="CommitChangelistDialog2" timestamp="1581918661407">
       <screen x="-3840" y="-1076" width="2560" height="1400" />
     </state>
-    <state x="-3035" y="-925" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581906775048" />
+    <state x="-3035" y="-925" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581918661407" />
     <state x="604" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581497388710" />
     <state x="-2853" y="-706" key="FileChooserDialogImpl" timestamp="1581569320222">
       <screen x="-3840" y="-1076" width="2560" height="1400" />
@@ -253,10 +247,10 @@
       <screen x="-3840" y="-1076" width="2560" height="1400" />
     </state>
     <state width="1257" height="492" key="GridCell.Tab.1.right/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581557446122" />
-    <state x="-3104" y="-735" key="Vcs.Push.Dialog.v2" timestamp="1581906777642">
+    <state x="-3104" y="-735" key="Vcs.Push.Dialog.v2" timestamp="1581918665685">
       <screen x="-3840" y="-1076" width="2560" height="1400" />
     </state>
-    <state x="-3104" y="-735" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581906777642" />
+    <state x="-3104" y="-735" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1076.2560.1400@-3840.-1076.2560.1400" timestamp="1581918665685" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1076.2560.1400@0.0.1920.1040" timestamp="1581497395373" />
     <state x="652" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1581554569218">
       <screen x="0" y="0" width="1920" height="1040" />
